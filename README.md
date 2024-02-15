@@ -129,7 +129,7 @@ a time different to when a trade was made. You may want to split trades yourself
 
 
 
-## virtual setup environment
+## virtual environment setup 
 
 recommended to use `python >= 3.10` and Linux or macOS.
 
