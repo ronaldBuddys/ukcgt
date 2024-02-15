@@ -109,8 +109,7 @@ The below is a code snippet using the values from `data/example_fx_rates.csv`
 import pandas as pd
 from capitalgains import get_data_path
 
-fx_rate_file = get_data_path("example_fx_rates.csv")
-fx = pd.read_csv(fx_rate_file)
+fx = pd.read_csv(get_data_path("example_fx_rates.csv"))
 fx['date'] = fx['date'].values.astype('datetime64[D]')
 
 ```
