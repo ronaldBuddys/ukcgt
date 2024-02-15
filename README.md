@@ -77,6 +77,7 @@ td = pd.read_csv(get_data_path("example_trades.csv"), dtype={'tradeid': str})
 td['date'] = td['date'].values.astype('datetime64[D]')
 ```
 
+**NOTE: positions are expected to be long only, that is the cumulative position of any ccy/asset over time should not go negative.**
 
 ## FX Rates
 
