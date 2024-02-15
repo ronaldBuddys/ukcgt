@@ -1,0 +1,8 @@
+numpy>=1.21.0
+pandas<2.2.0
+pylatex>=1.4.1
+openpyxl>=3.0.10
+Jinja2>=3.1.2
+matplotlib>=3.8.2
+requests>=2.31.0
+pytest>=7.4.3
