@@ -9,7 +9,7 @@ setup(
     description='For UK capital gains calculations (CGT).',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/ronalbuddys/capitalgains',
+    url='https://github.com/ronaldBuddys/ukcgt',
     packages=find_packages(),
     install_requires=[
     ],
@@ -18,8 +18,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
 )
